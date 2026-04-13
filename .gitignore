@@ -1,0 +1,49 @@
+# Compiled binaries
+ARMS/serial_write_wrist
+ARMS/serial_write_wrist_slow
+ARMS/diag_motors
+ARMS/ping_motor
+ARMS/scan_ids
+ARMS/test_each_motor
+ARMS/test_motor2
+ARMS/test_plot
+
+# PlatformIO build
+.pio/
+esp32/.pio/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints and prepared data (large binary files)
+jetson/checkpoints/*.pth
+jetson/checkpoints/*.onnx
+jetson/prepared_data/*.npz
+
+# Logs, data output, plots
+*.csv
+*.log
+motor_raw.log
+*.png
+
+# IDE
+.vscode/
+ARMS/.vscode/
+
+# Archives
+*.zip
+
+# Backup files
+*.bak
+*.bak2
+*.cpp.bak
+*.cpp.bak2
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+settings.json
