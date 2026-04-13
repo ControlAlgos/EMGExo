@@ -1,0 +1,3 @@
+/home/gear/Downloads/EMGExo/jetson/rt/build/CMakeFiles/emgexo_rt.dir
+/home/gear/Downloads/EMGExo/jetson/rt/build/CMakeFiles/edit_cache.dir
+/home/gear/Downloads/EMGExo/jetson/rt/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,79 @@
+{
+  "0": {
+    "file": "rest.bin",
+    "name": "rest",
+    "num_samples": 2635070,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26325,
+    "pred_file": "rest.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  },
+  "1": {
+    "file": "wrist_flex.bin",
+    "name": "wrist_flex",
+    "num_samples": 2667602,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26650,
+    "pred_file": "wrist_flex.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  },
+  "2": {
+    "file": "wrist_ext.bin",
+    "name": "wrist_ext",
+    "num_samples": 2667602,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26650,
+    "pred_file": "wrist_ext.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  },
+  "3": {
+    "file": "mass_flex.bin",
+    "name": "mass_flex",
+    "num_samples": 2667602,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26650,
+    "pred_file": "mass_flex.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  },
+  "4": {
+    "file": "mass_ext.bin",
+    "name": "mass_ext",
+    "num_samples": 2661096,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26585,
+    "pred_file": "mass_ext.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  },
+  "5": {
+    "file": "pronation.bin",
+    "name": "pronation",
+    "num_samples": 2661096,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26585,
+    "pred_file": "pronation.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  },
+  "6": {
+    "file": "supination.bin",
+    "name": "supination",
+    "num_samples": 2635070,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 26325,
+    "pred_file": "supination.pred.bin",
+    "pred_stride": 5,
+    "pred_window": 205
+  }
+}

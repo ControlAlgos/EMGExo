@@ -1,0 +1,86 @@
+{
+  "0": {
+    "file": "rest.bin",
+    "name": "rest",
+    "num_samples": 7175500,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 71685,
+    "pred_file": "rest.pred.bin",
+    "pred_count": 71685,
+    "pred_stride": 10,
+    "pred_accuracy": 0.9403082932273139
+  },
+  "1": {
+    "file": "wrist_flex.bin",
+    "name": "wrist_flex",
+    "num_samples": 7264086,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 72570,
+    "pred_file": "wrist_flex.pred.bin",
+    "pred_count": 72570,
+    "pred_stride": 10,
+    "pred_accuracy": 0.6463414634146342
+  },
+  "2": {
+    "file": "wrist_ext.bin",
+    "name": "wrist_ext",
+    "num_samples": 7263986,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 72569,
+    "pred_file": "wrist_ext.pred.bin",
+    "pred_count": 72569,
+    "pred_stride": 10,
+    "pred_accuracy": 0.7009466852237182
+  },
+  "3": {
+    "file": "mass_flex.bin",
+    "name": "mass_flex",
+    "num_samples": 7253776,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 72467,
+    "pred_file": "mass_flex.pred.bin",
+    "pred_count": 72467,
+    "pred_stride": 10,
+    "pred_accuracy": 0.908330688451295
+  },
+  "4": {
+    "file": "mass_ext.bin",
+    "name": "mass_ext",
+    "num_samples": 7246469,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 72394,
+    "pred_file": "mass_ext.pred.bin",
+    "pred_count": 72394,
+    "pred_stride": 10,
+    "pred_accuracy": 0.5072381689090256
+  },
+  "5": {
+    "file": "pronation.bin",
+    "name": "pronation",
+    "num_samples": 7246469,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 72394,
+    "pred_file": "pronation.pred.bin",
+    "pred_count": 72394,
+    "pred_stride": 10,
+    "pred_accuracy": 0.5384147857557257
+  },
+  "6": {
+    "file": "supination.bin",
+    "name": "supination",
+    "num_samples": 7175400,
+    "num_channels": 3,
+    "sample_rate_hz": 1000,
+    "source_windows": 71684,
+    "pred_file": "supination.pred.bin",
+    "pred_count": 71684,
+    "pred_stride": 10,
+    "pred_accuracy": 0.779936945482953
+  }
+}

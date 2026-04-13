@@ -270,8 +270,8 @@ int CAN_write_frame(const CAN_frame_t *p_frame) {
 	// Write the frame to the controller
 	CAN_write_frame_phy(p_frame);
 
-	// wait for the frame tx to complete (50ms timeout instead of infinite)
-	if (xSemaphoreTake(sem_tx_complete, pdMS_TO_TICKS(50)) == pdTRUE) {
+	// wait for the frame tx to complete (5ms timeout — short to avoid serial buffer overflow)
+	if (xSemaphoreTake(sem_tx_complete, pdMS_TO_TICKS(5)) == pdTRUE) {
 		return 0;
 	}
 	return -2;  // timeout — no ACK on CAN bus

@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/ControlAlgos/EMGExo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "ActuationTesting"]
+	remote = origin
+	merge = refs/heads/ActuationTesting
